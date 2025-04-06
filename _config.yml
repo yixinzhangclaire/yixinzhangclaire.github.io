@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Yixin Zhang"
   pronouns         : "she/her"  
-  bio              : "Major in Mathematics and Computer Science"
+  bio              : "McGill U1, Maths & CS"
   location         : "Montreal, Canada"
   employer         : "McGill University"
   uri              : # URL
@@ -50,39 +50,15 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
   instagram        : claireee_z
-  lastfm           : # Username
-  linkedin         : https://www.linkedin.com/in/yixin-zhang0319/
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  linkedin         : yixin-zhang0319
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Research Reports'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Article Reading Notes'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -247,37 +223,37 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # educaiton
   - scope:
       path: ""
-      type: teaching
+      type: education
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # projects
   - scope:
       path: ""
-      type: publications
+      type: projects
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # experience
   - scope:
       path: ""
-      type: portfolio
+      type: experience
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # interests
   - scope:
       path: ""
-      type: talks
+      type: interests
     values:
       layout: talk
       author_profile: true
